@@ -6,21 +6,43 @@
 .navbar{
     display: flex;
     justify-content: center;
-    background-color: darkcyan;
     height: 50px;
+    background-color: #0071c2;
 }
 .navContainer{
     width: 100%;
     max-width: 1024px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.navItems button {
+.logo{
+    cursor: pointer;
+    color:  white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.navItems {
     margin: 10px;
-    font-size: 15px
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+    color: white
 }
 .btn{
-    border: 1px solid grey;
+    border: 1px solid ;
     border-radius: 3px;
+    height: 40px;
+    width: 70px;
+    color: #0071c2;
+    cursor: pointer
+}
+.btn2{
+    border: 1px solid ;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+    color: #0071c2;
 }

@@ -1,0 +1,41 @@
+.header{
+    background-color:#0071c2;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+.headerContainer{
+    margin-top: 10px;
+    /* display: flex;
+    gap: 15px;    */
+    width: 100%;
+    max-width: 1024px;
+}
+.headerList{
+    display: flex;
+    gap: 25px;
+
+}
+.headerListItem{
+    display: flex;
+    gap:10px
+}
+.headerTitle{
+    margin-top: 20px;
+}
+.headerDesc{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.desc1{
+    margin-top: 5px;
+    font-size: 50px;
+}
+.desc2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.btn3{
+    margin-top: 40px;
+}
+
