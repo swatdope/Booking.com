@@ -45,4 +45,11 @@
     height: 40px;
     width: 120px;
     color: #0071c2;
+    cursor: pointer;
+}
+.flag{
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+
 }
